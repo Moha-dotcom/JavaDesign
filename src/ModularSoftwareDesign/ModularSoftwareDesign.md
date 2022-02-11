@@ -65,3 +65,10 @@ chosen subset of feature work.
 - A static variable is a variable that “belongs” to a class. It is shared among all objects of the class.
 - If one object changes the value of a static variable then all objects see that change.
 - a nonstatic variable “belongs” to an object of the class. Each object has its own instance of the variable, whose value is assigned independently of the other instances.
+
+
+   Refactoring
+- is the process of redistributing the existing code between classes.
+- In general, to refactor a program means to make syntactic changes to it without changing the way it works
+- Examples of refactoring include: renaming a class, method, or variable; changing the implementation of avariable from one data type to another; and splitting a class into two.
+- 
