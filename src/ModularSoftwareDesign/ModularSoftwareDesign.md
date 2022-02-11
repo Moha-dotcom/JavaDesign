@@ -67,7 +67,7 @@ chosen subset of feature work.
 - a nonstatic variable “belongs” to an object of the class. Each object has its own instance of the variable, whose value is assigned independently of the other instances.
 
 
-   ![<em style="text-decoration: underline">Refactoring</em>]
+![](<em style="text-decoration: underline">Refactoring</em>)
 - is the process of redistributing the existing code between classes.
 - In general, to refactor a program means to make syntactic changes to it without changing the way it works
 - Examples of refactoring include: renaming a class, method, or variable; changing the implementation of avariable from one data type to another; and splitting a class into two.
