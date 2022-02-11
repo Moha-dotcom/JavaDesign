@@ -2,7 +2,7 @@
 Notes From Java Program Design (EDWARD SCIORE).
 
     ModularSoftwareDesign.Modular Software Design
-Two Common development Methodoligiees
+    -Two Common development Methodoligiees
 
      1.WaterFall
 
@@ -30,15 +30,15 @@ Two Common development Methodoligiees
     
 
       The Fundamental Priniciple of Software Desing
-- A program should be designed so that any change to it will affect only a small, predictable portion of the code.
-- Variables declared outside the class it said to be global scope
-- If the varible is declared within a method can be referenced only from within the code block where it is declared and is said to be local scope.
-- in the scopeDemo class there are four variables x, z, and two version of y.
-  - X has the largest Scope, it can be refered from anywhre in the class.
-  - Y in method f can only be accessed from within that method, and similarly for varible y in g.
-  - Variable Z can only be accessed from within f's for loop.
-
-
+```- A program should be designed so that any change to it will affect only a small, predictable portion of the code.
+  - Variables declared outside the class it said to be global scope
+  - If the varible is declared within a method can be referenced only from within the code block where it is declared and is said to be local scope.
+  - in the scopeDemo class there are four variables x, z, and two version of y.
+    - X has the largest Scope, it can be refered from anywhre in the class.
+    - Y in method f can only be accessed from within that method, and similarly for varible y in g.
+    - Variable Z can only be accessed from within f's for loop.
+`
+``
          Why Should a programmer care about variable scope
 - The answer comes from the fundamental design priniciple. 
 - In general the smaller the scope of a variable, the fewer the lines of code can be affected by a change. 
