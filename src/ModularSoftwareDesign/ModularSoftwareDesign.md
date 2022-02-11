@@ -20,7 +20,7 @@ Two Common development Methodoligiees
         - Agile developmenet plans for frequent iterations with small, predictable changes.
 
 
-        ![](https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/04/Waterfall-vs-Agile-1.jpg)
+        ![https://d112uwirao0vo9.cloudfront.net/wp-content/uploads/2019/04/Waterfall-vs-Agile-1.jpg]
 
 
     The Fundamental Priniciple of Software Desing
