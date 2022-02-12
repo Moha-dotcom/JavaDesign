@@ -1,8 +1,10 @@
 package ModularSoftwareDesign.BankExample;
 
+import java.util.HashMap;
+
 public class BankTest {
 
-    private static Bank bank = new Bank();
+    private static Bank bank = new Bank(new HashMap<>(), 0);
     private static int acct  = bank.newAccount();
 
 

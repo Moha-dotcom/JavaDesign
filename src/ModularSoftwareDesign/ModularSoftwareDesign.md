@@ -75,3 +75,27 @@
 
             The Most Qualified Class Rule
 - Work should be assigned to the class that know best how to do it.
+- When an object receives its dependency values through a constructor we Called it constructor injection.
+
+            Configuration Class.
+- Enables users to reconfigure the behavior of the program by simply modifiying the class
+- The idea of placing all dependencies decisons within single class is powerful and convienient
+They place all configuration details (i.e., information about the input stream, the name of the stored data file, etc.) into a configuration file. 
+The configuration class reads that file and uses it to create the appropriate objects.
+
+        Advantage of using Configuration code:
+-The advantage to using a configuration file is that the configuration code never needs to change. Only the configuration file changes.
+
+            The Rule of Low Coupling
+- try to minimize the number of class dependencies
+- This rule is often expressed less formally as “Don’t talk to strangers.” The idea is that if a concept is strange to a client, or 
+difficult to understand, it is better to mediate access to it.
+
+    Summary
+-Software development must be guided by a concern for program modifiability. 
+The fundamental design principle is that a program should be designed so that any change to it will affect only a small, predictable portion of the code. 
+There are several rules that can help a designer satisfy the fundamental principle.
+       -The Encapsulation rule states that a class’s implementation details should be hidden from its clients as much as possible.
+       - The Most Qualified Class rule states that work should be assigned to the class that knows best how to do it.
+       - The Low Coupling rule states that the number of class dependencies should be minimized.
+       - The Single Responsibility rule states that a class should have a single purpose, and its methods should all be related to that purpose.

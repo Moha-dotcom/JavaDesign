@@ -5,6 +5,12 @@ import java.util.Set;
 
 public class Bank {
     private HashMap<Integer,Integer> accounts = new HashMap<>();
+    int accno;
+
+    public Bank(HashMap<Integer, Integer> accounts, int n) {
+        this.accounts = accounts;
+        this.accno = n;
+    }
 
     private double rate = 0.01;
     private int nextacct = 0;
