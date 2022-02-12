@@ -15,6 +15,7 @@ public class Bank {
     }
 
     public int getBalance(int acctnum) {
+
         return accounts.get(acctnum);
     }
     public void deposit(int acctnum, int amt) {

@@ -72,3 +72,6 @@
 - In general, to refactor a program means to make syntactic changes to it without changing the way it works
 - Examples of refactoring include: renaming a class, method, or variable; changing the implementation of avariable from one data type to another; and splitting a class into two.
 - 
+
+            The Most Qualified Class Rule
+- Work should be assigned to the class that know best how to do it.
