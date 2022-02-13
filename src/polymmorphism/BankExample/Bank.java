@@ -1,10 +1,10 @@
-package ModularSoftwareDesign.BankExample;
+package polymmorphism.BankExample;
 
 import java.util.HashMap;
 import java.util.Set;
 
 public class Bank {
-    double rate;
+    double rate = 2.5;
     private HashMap<Integer,Integer> accounts = new HashMap<>();
     int accno;
 

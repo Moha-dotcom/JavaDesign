@@ -95,7 +95,7 @@ difficult to understand, it is better to mediate access to it.
 -Software development must be guided by a concern for program modifiability. 
 The fundamental design principle is that a program should be designed so that any change to it will affect only a small, predictable portion of the code. 
 There are several rules that can help a designer satisfy the fundamental principle.
-       -The Encapsulation rule states that a class’s implementation details should be hidden from its clients as much as possible.
+       -The ![<em>Encapsulation</em>] rule states that a class’s implementation details should be hidden from its clients as much as possible.
        - The Most Qualified Class rule states that work should be assigned to the class that knows best how to do it.
        - The Low Coupling rule states that the number of class dependencies should be minimized.
        - The Single Responsibility rule states that a class should have a single purpose, and its methods should all be related to that purpose.
